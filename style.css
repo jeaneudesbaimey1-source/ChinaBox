@@ -1,1 +1,134 @@
+/* Style général ChinaBox */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f5f5f5;
+    color: #333;
+}
+
+
+/* En-tête */
+
+header {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+
+/* Menu */
+
+nav {
+    background: #d4af37;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+
+/* Bannière */
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: white;
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+
+/* Bouton WhatsApp */
+
+.btn {
+    display: inline-block;
+    background: #25D366;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* Produits */
+
+#produits {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.produits {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+
+.carte {
+    background: white;
+    width: 250px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+
+.carte h3 {
+    margin-bottom: 15px;
+    color: #d4af37;
+}
+
+
+/* Contact */
+
+#contact {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+
+/* Pied de page */
+
+footer {
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+/* Adapt
